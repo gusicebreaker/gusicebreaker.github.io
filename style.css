@@ -1,0 +1,60 @@
+body {
+      font: normal 20px Courier New;
+      color: white;
+	  margin-left: 50px;
+	  margin-right: 50px;
+	  background-color: #272828 ;
+}
+h1 {
+    font-size: 300%;
+}
+p  {
+    font-size: 120%;
+}
+b  {
+    font-size: 150%;
+}
+h2 {
+    font-size: 200%;
+}
+h3 {
+    font-size: 190%;
+}
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+li a:active {
+	background-color: #54adf7;
+}
+.gmail {
+    width: 130px;
+    height: 195px;
+    background: url("images/gmail.png") no-repeat;
+    margin: 50px;
+    }
+.gmail:hover {
+    background: url("/examples/images/card-front.jpg") no-repeat;
+    }
